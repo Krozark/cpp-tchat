@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1308866735 source:/home/maxime/Documents/Projet_2/Tests/MMO/client/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	"client.h"
+
+1308866905 /home/maxime/Documents/Projet_2/Tests/MMO/client/client.h
+	<winsock2.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netdb.h>
+
+1308866704 source:/home/maxime/Documents/Projet_2/Tests/MMO/client/client.cpp
+	"client.h"
+	<stdio.h>
+	<stdlib.h>
+	<errno.h>
+	<string.h>
+
+1308866735 source:/home/maxime/Documents/Projet/Tests/MMO/client/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	"client.h"
+
+1308866905 /home/maxime/Documents/Projet/Tests/MMO/client/client.h
+	<winsock2.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netdb.h>
+
