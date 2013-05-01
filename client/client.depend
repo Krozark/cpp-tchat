@@ -34,3 +34,24 @@
 	<unistd.h>
 	<netdb.h>
 
+1328803410 source:/media/HDD1/DEV/Projet/C-cpp/git/cpp-tchat/client/client.cpp
+	"client.h"
+	<stdio.h>
+	<stdlib.h>
+	<errno.h>
+	<string.h>
+
+1308866904 /media/HDD1/DEV/Projet/C-cpp/git/cpp-tchat/client/client.h
+	<winsock2.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netdb.h>
+
+1308866734 source:/media/HDD1/DEV/Projet/C-cpp/git/cpp-tchat/client/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	"client.h"
+

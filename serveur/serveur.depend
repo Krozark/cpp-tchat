@@ -41,3 +41,24 @@
 1308865724 /home/maxime/Documents/Projet/Tests/MMO/serveur/client.h
 	"server.h"
 
+1309040514 source:/media/HDD1/DEV/Projet/C-cpp/git/cpp-tchat/serveur/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<errno.h>
+	<string.h>
+	"server.h"
+	"client.h"
+
+1366988713 /media/HDD1/DEV/Projet/C-cpp/git/cpp-tchat/serveur/server.h
+	<winsock2.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netdb.h>
+	"client.h"
+
+1308865724 /media/HDD1/DEV/Projet/C-cpp/git/cpp-tchat/serveur/client.h
+	"server.h"
+
