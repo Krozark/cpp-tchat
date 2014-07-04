@@ -92,7 +92,6 @@
 {
    SOCKET sock = socket(AF_INET, SOCK_STREAM, 0);
    SOCKADDR_IN sin = { 0 };
-   struct hostent *hostinfo;
 
    if(sock == INVALID_SOCKET)
    {
@@ -100,7 +99,7 @@
       exit(errno);
    }
 
-   hostinfo = gethostbyname(address);
+   struct hostent *hostinfo = gethostbyname(address);
    if (hostinfo == NULL)
    {
       fprintf (stderr, "Unknown host %s.\n", address);
